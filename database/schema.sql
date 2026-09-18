@@ -1,14 +1,13 @@
--- ============================================================
+
 -- VenueHub MySQL Database Schema
 -- Smart Venue Discovery, Comparison & Event Booking Platform
--- ============================================================
 
 CREATE DATABASE IF NOT EXISTS venuehub;
 USE venuehub;
 
--- ============================================================
+
 -- DROP TABLES IN SAFE REVERSE DEPENDENCY ORDER
--- ============================================================
+
 DROP TABLE IF EXISTS notifications;
 DROP TABLE IF EXISTS wishlist;
 DROP TABLE IF EXISTS reviews;
